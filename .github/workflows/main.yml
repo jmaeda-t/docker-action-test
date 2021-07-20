@@ -5,7 +5,7 @@ on: [push]
 jobs:
   hello_Morisawa:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Hello action
     steps:
       # プライベートアクションを使用するために
       # リポジトリをチェックアウトする
